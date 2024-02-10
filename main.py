@@ -8,7 +8,7 @@ from psycopg2 import DatabaseError
 fake = Faker()
 
 # Підключення до бази даних
-conn = psycopg2.connect(host="localhost", database="DZ6", user="postgres", password="567234")
+conn = psycopg2.connect(host="localhost", database="DZ6.3", user="postgres", password="567234")
 cur = conn.cursor()
 
 # Додавання груп
